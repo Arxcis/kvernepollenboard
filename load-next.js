@@ -6,7 +6,6 @@ const nextMap = {
 };
 
 setTimeout(() => {
-  return;
   const params = new URLSearchParams(window.location.search);
   const next = params.get("next") ?? nextMap["index.html"];
 
