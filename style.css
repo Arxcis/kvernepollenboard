@@ -1,0 +1,39 @@
+/* CSS for å fylle hele skjermen uten scrolling */
+html,
+body {
+  height: 100%; /* Fyll hele høyden */
+  margin: 0; /* Fjern marginer */
+  padding: 0; /* Fjern padding */
+  background: rgb(2, 10, 20);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+body {
+  display: flex; /* Bruk flexbox for å fylle skjermen */
+  justify-content: center; /* Sentrer innholdet horisontalt */
+  flex-direction: column;
+}
+
+#meteogram {
+  align-self: center;
+}
+
+#table {
+  max-height: 600px;
+  flex: 1;
+}
+
+#busstopp {
+  flex: 1;
+  width: 1000px;
+  align-self: center;
+}
+
+#next {
+  align-self: center;
+}
+
+#info {
+  align-self: center;
+}
