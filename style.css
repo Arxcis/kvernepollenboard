@@ -20,20 +20,22 @@ body {
 }
 
 #table {
-  max-height: 600px;
+  max-height: 500px;
   flex: 1;
 }
 
 #busstopp {
   flex: 1;
-  width: 1000px;
+  width: 800px;
   align-self: center;
 }
 
 #next {
   align-self: center;
+  padding: 0 20px 20px 20px;
 }
 
-#info {
+#middag {
   align-self: center;
+  font-size: 22px;
 }
